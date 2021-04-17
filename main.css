@@ -1,0 +1,32 @@
+.container {
+  background-color: gray;
+  padding: 30px;
+}
+
+
+
+
+@media (min-width: 768px){
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .box {
+        width: 300px;
+      }
+}
+.wrapper1{
+    flex: 1;
+}
+
+.box {
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  background: whitesmoke;
+  margin: 10px;
+}
+.parent {
+  padding: 20px;
+}
